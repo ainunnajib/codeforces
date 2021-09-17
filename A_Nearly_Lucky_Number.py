@@ -1,0 +1,5 @@
+s = input()
+fours = s.count('4')
+sevens = s.count('7')
+x = str(fours+sevens)
+print('YES' if x.count('4')+x.count('7') == len(x) else 'NO')
